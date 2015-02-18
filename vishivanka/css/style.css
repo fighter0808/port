@@ -1,0 +1,196 @@
+body {
+    background-image: url(../images/bg.jpg);
+}
+
+.vverh {
+    
+    border-radius: 5px;
+    height: 265px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+}
+
+.phon {
+    color: #E61A4F;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.fa fa-phone {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.bant {
+    background: url(../images/bant.jpg) no-repeat;
+    height: 112px;
+    margin-top: 50px;
+}
+
+.border-right {
+    border-right: 1px dashed #ccc;
+    height: 110px;
+    margin-top: 100px;
+}
+
+.koshik {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E61A4F;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.enter_in {
+    list-style: none;
+    color: #E61A4F;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.enter_in li {
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.form-text {
+    left: 140px;
+    top: 185px;
+    position: absolute;
+    width: 135px;
+    height: 30px;
+    border: 1px solid #E61A4F;
+    color: #000000;
+    background: url("../images/search%20icon.png") no-repeat 100px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.email {
+    color: #E61A4F;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.order {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.woman {
+    background-image: url(../images/girl.jpg);
+    width: 206px;
+    height: 383px;
+}
+
+.btn-default {
+    display: block;
+    width: 207px;
+    color: #929292;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+}
+
+.btn-default:hover {
+    color: red;
+    background-color: white;
+}
+
+span.price {
+    margin-left: 145px;
+    font-weight: bold;
+}
+
+.fa-phone {
+    margin-left: 170px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.fa-envelope {
+    margin-left: 170px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.navbar-default {
+   
+    width: 100%;
+    height: 50px;
+     -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+    
+}
+.navbar-default ul  {margin-left: -15px;}
+
+.navbar-default li a {display: block; padding: 14px 50px; border: 1px solid white;
+    border: -1px solid white;}
+.navbar-default li a:hover {border: 1px solid red; background-color: #F9F9F9;}  
+
+.list-group {
+    
+   padding: 0;
+    margin: 0;
+    list-style: none;
+    background: white;
+     -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.08);
+}
+
+
+.list-group li a {
+    display: block;
+    color: #929292;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 1px solid white;
+    border: -1px solid white;
+}
+
+.list-group li a:hover {color: red; border: 1px solid red; background-color: #F9F9F9;}
+
+.quantity {
+    float: left;
+    margin-top: 10px;
+}
+
+.fa-play {
+    color: red;
+    float: left;
+    margin-left: 5px;
+}
+
+.triangles {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+#figure {
+    margin-left: 15px;
+}
+
+.other {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: maroon;
+    height: 130px;
+    width: 960px;
+    margin: -130px auto 0;
+    position: relative;
+}
+
