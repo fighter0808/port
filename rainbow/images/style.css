@@ -1,0 +1,233 @@
+/*
+** This CSS code is not done to the web.
+** The automatic HTML and CSS code are only a helper.
+*/
+
+body {
+  text-align: center;
+}
+
+#element-1 {
+  top: -2024px;
+  height: 140px;
+  width: 1920px;
+  background: url("header background.jpg") no-repeat;
+  position: absolute;
+  left: -496px;
+}
+
+#element-2 {
+  top: -1785px;
+  height: 133px;
+  width: 340px;
+  background: url("header logo.png") no-repeat;
+  position: absolute;
+  left: -495px;
+}
+
+#element-3 {
+  top: -1515px;
+  height: 34px;
+  width: 190px;
+  background: url("search window.png") no-repeat;
+  position: absolute;
+  left: -493px;
+}
+
+#element-4 {
+  top: -1511px;
+  height: 25px;
+  width: 25px;
+  background: url("search icon.png") no-repeat;
+  position: absolute;
+  left: -230px;
+}
+
+#element-5 {
+  top: -1366px;
+  height: 378px;
+  width: 960px;
+  background: url("content 1 background.jpg") no-repeat;
+  position: absolute;
+  left: -496px;
+}
+
+#element-6 {
+  top: -860px;
+  height: 105px;
+  width: 284px;
+  background: url("cloud tell your story.png") no-repeat;
+  position: absolute;
+  left: -496px;
+}
+
+#element-7 {
+  top: -692px;
+  height: 110px;
+  width: 195px;
+  background: url("cloud on grass 1 left.png") no-repeat;
+  position: absolute;
+  left: -496px;
+}
+
+#element-8 {
+  top: -525px;
+  height: 106px;
+  width: 202px;
+  background: url("cloud on grass 2 centre.png") no-repeat;
+  position: absolute;
+  left: -496px;
+}
+
+#element-9 {
+  top: -382px;
+  height: 105px;
+  width: 170px;
+  background: url("cloud on grass 3 right.png") no-repeat;
+  position: absolute;
+  left: -496px;
+}
+
+#element-10 {
+  top: -1984px;
+  height: 70px;
+  width: 287px;
+  background: url("window raining Ideas.png") no-repeat;
+  position: absolute;
+  left: 1615px;
+}
+
+#element-11 {
+  top: -1859px;
+  height: 48px;
+  width: 203px;
+  background: url("window Submit your blog.png") no-repeat;
+  position: absolute;
+  left: 1699px;
+}
+
+#element-12 {
+  top: -1744px;
+  height: 47px;
+  width: 101px;
+  background: url("left small cloud without text.png") no-repeat;
+  position: absolute;
+  left: 1769px;
+}
+
+#element-13 {
+  top: -1634px;
+  height: 47px;
+  width: 86px;
+  background: url("right small cloud without text.png") no-repeat;
+  position: absolute;
+  left: 1784px;
+}
+
+#element-14 {
+  top: -1534px;
+  height: 50px;
+  width: 960px;
+  background: url("background for Bloggers in Spotlight.jpg") no-repeat;
+  position: absolute;
+  left: 908px;
+}
+
+#element-15 {
+  top: -1461px;
+  height: 97px;
+  width: 145px;
+  background: url("cloud The Most Smart fellows.png") no-repeat;
+  position: absolute;
+  left: 1723px;
+}
+
+#element-16 {
+  top: -1339px;
+  height: 101px;
+  width: 101px;
+  background: url("icon Blogger image profile.png") no-repeat;
+  position: absolute;
+  left: 1767px;
+}
+
+#element-17 {
+  top: -1086px;
+  height: 271px;
+  width: 780px;
+  background: url("Window Trending topics.png") no-repeat;
+  position: absolute;
+  left: 1089px;
+}
+
+#element-18 {
+  top: -785px;
+  height: 170px;
+  width: 960px;
+  background: url("footer background.png") no-repeat;
+  position: absolute;
+  left: 909px;
+}
+
+#element-19 {
+  top: -563px;
+  height: 60px;
+  width: 155px;
+  background: url("footer logo.png") no-repeat;
+  position: absolute;
+  left: 1714px;
+}
+
+#element-20 {
+  top: -451px;
+  height: 20px;
+  width: 20px;
+  background: url("VK  logo.png") no-repeat;
+  position: absolute;
+  left: 1849px;
+}
+
+#element-21 {
+  top: -397px;
+  height: 20px;
+  width: 20px;
+  background: url("Twitter logo.png") no-repeat;
+  position: absolute;
+  left: 1849px;
+}
+
+#element-22 {
+  top: -342px;
+  height: 20px;
+  width: 20px;
+  background: url("facebook logo.png") no-repeat;
+  position: absolute;
+  left: 1849px;
+}
+
+#element-23 {
+  top: -288px;
+  height: 20px;
+  width: 20px;
+  background: url("odnoklassniki  logo.png") no-repeat;
+  position: absolute;
+  left: 1849px;
+}
+
+#element-24 {
+  top: -234px;
+  height: 47px;
+  width: 127px;
+  background: url("weBulldozers logo.png") no-repeat;
+  position: absolute;
+  left: 1743px;
+}
+
+#element-25 {
+  top: -145px;
+  height: 144px;
+  width: 144px;
+  background: url("body background.gif") no-repeat;
+  position: absolute;
+  left: 1726px;
+}

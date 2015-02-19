@@ -1,0 +1,858 @@
+/* Eric Meyer's CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+    height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    background-image: url(../images/background%20for%20blog%20site.png);
+    font: 12px/18px Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-top: -140px;
+    background: #ffffff;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+
+.header {
+    height: 140px;
+    background: #42276A;
+    width: 100%;
+}
+/* Header-2
+-----------------------------------------------------------------------------*/
+
+.header-2 {
+    height: 115px;
+    background: #42276A;
+    position: relative;
+}
+
+.call {
+    font-family: Arial, sans-serif;
+    ;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 40px;
+}
+
+.header-2 ul li {
+    float: left;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+
+.header-2 ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-2 ul li a:hover {
+    color: #809B00;
+}
+
+.line {
+    border: 1px dotted;
+    background: grey;
+    width: 219px;
+    position: absolute;
+}
+
+.line1 {
+    margin-top: 67px;
+}
+
+.form-text {
+    right: 0;
+    top: 35px;
+    position: absolute;
+    width: 135px;
+    height: 30px;
+    border: 1px solid white;
+    color: #000000;
+    background: url("../images/Sprites.png") no-repeat scroll 52px 2px #42276A;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+input::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #42276A;
+    font-size: 16px;
+    padding-left: 10px;
+}
+/* Firefox < 19 */
+
+input:-moz-placeholder {
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+input:focus:-moz-placeholder {
+    color: #42276A;
+    font-size: 16px;
+    padding-left: 10px;
+}
+/* Firefox > 19 */
+
+input::-moz-placeholder {
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+input:focus::-moz-placeholder {
+    color: #42276A;
+    font-size: 16px;
+    padding-left: 10px;
+}
+/* Internet Explorer 10 */
+
+input:-ms-input-placeholder {
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+input:focus:-ms-input-placeholder {
+    color: #42276A;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.form-text:focus {
+    background-position: 100px 2px;
+    background-color: white;
+}
+
+.central {
+    position: relative;
+}
+
+.header2_img1 {
+    width: 362px;
+    height: 155px;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 36px;
+    z-index: 1;
+}
+
+.header-2 .central .RainBlog {
+    font-size: 44px;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 360px;
+    z-index: 2;
+}
+
+.header-2 .central .RainBlog span {
+    color: #809B00;
+}
+/* Content1
+----------------------------------------------------------------------------*/
+
+.content1 {
+    width: 960px;
+    height: 190px;
+    background: rgba(221, 236, 243, 1);
+    background: -moz-linear-gradient(top, rgba(221, 236, 243, 1) 0%, rgba(221, 236, 243, 1) 70%, rgba(221, 236, 243, 1) 74%, rgba(221, 236, 243, 1) 78%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(221, 236, 243, 1)), color-stop(70%, rgba(221, 236, 243, 1)), color-stop(74%, rgba(221, 236, 243, 1)), color-stop(78%, rgba(221, 236, 243, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(top, rgba(221, 236, 243, 1) 0%, rgba(221, 236, 243, 1) 70%, rgba(221, 236, 243, 1) 74%, rgba(221, 236, 243, 1) 78%, rgba(255, 255, 255, 1) 100%);
+    background: -o-linear-gradient(top, rgba(221, 236, 243, 1) 0%, rgba(221, 236, 243, 1) 70%, rgba(221, 236, 243, 1) 74%, rgba(221, 236, 243, 1) 78%, rgba(255, 255, 255, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(221, 236, 243, 1) 0%, rgba(221, 236, 243, 1) 70%, rgba(221, 236, 243, 1) 74%, rgba(221, 236, 243, 1) 78%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(221, 236, 243, 1) 0%, rgba(221, 236, 243, 1) 70%, rgba(221, 236, 243, 1) 74%, rgba(221, 236, 243, 1) 78%, rgba(255, 255, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ddecf3', endColorstr='#ffffff', GradientType=0);
+}
+
+.content1_img1 {
+    width: 284px;
+    height: 105px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.text1_content1_img1 {
+    padding: 85px 0 0 50px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 35px;
+    position: absolute;
+}
+
+.content1_img2 {
+    background-image: url(../images/window%20raining%20Ideas.png) no-repeat;
+    width: 143px;
+    height: 30px;
+    margin-left: 381px;
+    margin-top: 118px;
+    position: absolute;
+}
+
+.text2_content1_img2 {
+    text-align: center;
+    padding-top: 6px;
+    font-size: 16px;
+}
+/* Content2
+----------------------------------------------------------------------------*/
+
+.content2 {
+    width: 960px;
+    height: 220px;
+    background: #809B00;
+}
+
+.clouds-1 {
+    background-image: url(../images/1%20%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F%20It%20is%20best%20way.png);
+    width: 239px;
+    height: 145px;
+    float: left;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.clouds-2 {
+    background-image: url(../images/2%20%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%20Join%20our%20community.png);
+    width: 253px;
+    height: 143px;
+    float: left;
+    position: absolute;
+    margin-left: 355px;
+    margin-top: 5px;
+}
+
+.clouds-3 {
+    background-image: url(../images/3%20%D0%9F%D1%80%D0%B0%D0%B2%D0%B0%D1%8F%20%20Most%20various%20interesting.png);
+    float: left;
+    margin-left: 720px;
+    width: 222px;
+    height: 146px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.text-clouds {
+    padding-left: 45px;
+    padding-top: 25px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.draw {
+    /*height: 70px;
+float: left;*/
+    
+    padding-left: 40px;
+    padding-top: 150px;
+}
+
+.content2_img4 {
+    height: 30px;
+    width: 150px;
+    float: left;
+    clear: both;
+}
+
+.text_content2_img4 {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+}
+
+.content2_img5 {
+    width: 101px;
+    height: 47px;
+    float: left;
+    margin-left: 15px;
+}
+
+.content2_img6 {
+    height: 30px;
+    width: 150px;
+    float: left;
+    margin-left: 25px;
+}
+
+.text_content2_img6 {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+}
+
+.content2_img7 {
+    width: 86px;
+    height: 47px;
+    float: left;
+    margin-left: 35px;
+}
+
+.content2_img8 {
+    height: 30px;
+    width: 150px;
+    float: left;
+    margin-left: 30px;
+}
+
+.text_content2_img8 {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+}
+
+.myButton {
+    -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+    -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background-color: #809B00;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: arial;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background-color: #ffffff;
+    color: #809B00;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.blogers {
+    width: 960px;
+    height: 50px;
+    background: #000000;
+}
+
+.text-blogers {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.blogers .line2 {
+    margin-left: 240px;
+    width: 690px;
+}
+/* Content3
+----------------------------------------------------------------------------*/
+
+.content3 {
+    width: 960px;
+    height: 150px;
+    background: #ffffff;
+}
+
+.content3_img1 {
+    padding-top: 25px;
+}
+
+.cloud1 {
+    background-image: url(../images/%D0%A4%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D1%8C%D1%88%D0%B5%201%20%20%20%20Most%20Smart%20Fellows.png);
+    width: 171px;
+    height: 123px;
+    margin-left: 40px;
+    float: left;
+}
+
+.text-cloud1 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-left: 63px;
+    color: white;
+    line-height: 1.5;
+}
+
+.picture {
+    padding-left: 268px;
+    position: absolute;
+}
+
+.siluet {
+    width: 101px;
+    height: 101px;
+    background: url("../images/Sprites.png") no-repeat -145px -26px #42276a;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 15px;
+    -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    -khtml-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.siluet:hover {
+    width: 101px;
+    height: 101px;
+    background: url("../images/Sprites.png") no-repeat -147px 45px #ffffff;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #42276a;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.topics {
+    width: 960px;
+    height: 50px;
+    background: #000000;
+}
+
+.text-topics {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.topics .line3 {
+    margin-left: 240px;
+    width: 690px;
+}
+/* Content4
+----------------------------------------------------------------------------*/
+
+.content4 {
+    width: 960px;
+    height: 400px;
+    background: #ffffff;
+    position: relative;
+}
+
+.cloud2 {
+    background-image: url(../images/%D0%A4%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D1%8C%D1%88%D0%B5%202%20%20%20%20Grow%20Your%20Own%20Trend.png);
+    width: 171px;
+    height: 123px;
+    margin-left: 40px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.text-cloud2 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-left: 63px;
+    color: white;
+    line-height: 1.5;
+}
+
+.restengle {
+    padding-top: 95px;
+    margin-left: 50px;
+}
+
+.restengle1 {
+    width: 70px;
+    height: 68px;
+    background: #C3AFE1;
+    border-radius: 20px;
+    margin-top: 197px;
+    float: left;
+    -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    -khtml-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.restengle2 {
+    width: 70px;
+    height: 135px;
+    background: #8D66C6;
+    border-radius: 20px;
+    margin-top: 130px;
+    margin-left: 20px;
+    float: left;
+    -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    -khtml-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.restengle3 {
+    width: 70px;
+    height: 203px;
+    background: #5B3692;
+    border-radius: 20px;
+    margin-top: 62px;
+    margin-left: 20px;
+    float: left;
+    -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    -khtml-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.restengle4 {
+    width: 540px;
+    height: 265px;
+    background: white;
+    border: 1px solid #42276A;
+    margin-left: 20px;
+    border-radius: 20px;
+    float: left;
+    -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    -khtml-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.all {
+    margin: 0;
+    padding: 30px 70px;
+    overflow: hidden;
+}
+
+.table {
+    float: left;
+    margin: 0;
+    padding: 10px 0 0 0;
+    color: #42276A;
+    font-weight: bold;
+}
+
+.table li {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.table li a {
+    color: #42276A;
+    text-decoration: none;
+}
+
+.table li a:hover {
+    color: #809B00;
+}
+
+.Trending_Topics {
+    color: #42276A;
+    font-weight: bold;
+    float: left;
+}
+
+.position1 {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.position2 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.position3 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.position4 {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.position5 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.position6 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.Trending_Topics a {
+    text-decoration: none;
+}
+
+.Trending_Topics:hover a {
+    color: #809B00;
+}
+
+.rasporka {
+    height: 130px;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer {
+    margin: -130px auto 0;
+    height: 130px;
+    width: 960px;
+    background: white;
+}
+
+.logo {
+    background-image: url(../images/footer%20background.png);
+    height: 170px;
+    width: 960px;
+}
+
+.cloud3 {
+    background-image: url(../images/footer%20logo.png);
+    width: 155px;
+    height: 60px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.elements {
+    padding-top: 130px;
+    padding-left: 660px;
+    position: absolute;
+}
+
+.vk {
+    background-image: url(../images/Sprites.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-position: 0px 190px;
+}
+
+.twitter {
+    background-image: url(../images/Sprites.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    background-position: -81px 190px;
+}
+
+.facebook {
+    background-image: url(../images/Sprites.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    background-position: -41px 50px;
+}
+
+.odnoklasniki {
+    background-image: url(../images/Sprites.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    background-position: -120px 50px;
+}
+
+.vk:hover {
+    background-image: url(../images/Sprites.png);
+    background-position: 0px 230px;
+}
+
+.twitter:hover {
+    background-image: url(../images/Sprites.png);
+    background-position: -81px 230px;
+}
+
+.facebook:hover {
+    background-image: url(../images/Sprites.png);
+    background-position: -41px 90px;
+}
+
+.odnoklasniki:hover {
+    background-image: url(../images/Sprites.png);
+    background-position: -120px 90px;
+}
+
+.logo .line4 {
+    margin-top: 150px;
+    margin-left: 250px;
+    width: 350px;
+}
+
+.buldozers {
+    background-image: url(../images/weBulldozers%20logo.png);
+    width: 127px;
+    height: 47px;
+    margin-left: 815px;
+    margin-top: 120px;
+    position: absolute;
+}
